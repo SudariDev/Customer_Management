@@ -9,7 +9,6 @@ import java.sql.Statement;
 public class Customer {
 		
 	//A common method to connect to the DB
-	//A common method to connect to the DB
 	private Connection connect(){
 		Connection con = null;
 		try{
