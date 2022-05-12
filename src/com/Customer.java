@@ -66,9 +66,6 @@ public class Customer {
 			 return output;
 		 }
 		
-		
-		
-		
 		public String readCustomer(){
 			String output = "";
 			try{
@@ -92,7 +89,7 @@ public class Customer {
 						
 						 "</tr>";
 	
-				String query = "select * from `customer`";
+				 String query = "select * from `customer`";
 				 Statement stmt = con.createStatement();
 				 ResultSet rs = stmt.executeQuery(query);
 				 
