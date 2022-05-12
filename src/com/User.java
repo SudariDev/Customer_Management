@@ -10,7 +10,7 @@ public class User {
 	
 	
 		
-		//A common method to connect to the DB
+	//A common method to connect to the DB
 	//A common method to connect to the DB
 	private Connection connect(){
 		Connection con = null;
@@ -18,7 +18,7 @@ public class User {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			//Provide the correct details: DBServer/DBName, username, password
-			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3311/buyer2", "root", "");
+			con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/buyer2", "root", "12345");
 			
 		}catch (Exception e){
 			e.printStackTrace();
