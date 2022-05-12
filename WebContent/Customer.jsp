@@ -15,7 +15,7 @@
 <body>
 
 <div class="container"><div class="row"><div class="col-6">
-<h1>Customer Management</h1>
+<h1>Customer details</h1>
 
 	<form id="formItem" name="formItem">
 		
