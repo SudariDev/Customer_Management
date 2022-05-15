@@ -187,7 +187,6 @@ public class Customer {
 		 }
 		
 		
-
 		public String deleteCustomer(String customerId) { 
 			String output = ""; 
 			try{ 
