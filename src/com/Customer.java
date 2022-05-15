@@ -76,7 +76,8 @@ public class Customer {
 					
 				// Prepare the html table to be displayed
 				output = 
-						"<table border='1' >"+ 
+						"<table border='1' class='table table-info table-bordered table-striped table-hover table-warning'>"+ 
+	
 						"<tr >" +
 							 "<th >Customer Name</th>" +
 							 "<th >Address</th>" +
