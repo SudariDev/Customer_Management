@@ -131,7 +131,7 @@ function validateItemForm(){
 //Name---------------------------
 if ($("#name").val().trim() == "")
 {
-return "Insert  name.";
+return "Insert customer name.";
 } 
 
 //Address---------------------------
