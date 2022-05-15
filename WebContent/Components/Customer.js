@@ -128,6 +128,12 @@ function onItemDeleteComplete(response, status){
 function validateItemForm(){
 	// CODE
 
+//Name---------------------------
+if ($("#name").val().trim() == "")
+{
+return "Insert  name.";
+} 
+
 //Address---------------------------
 if ($("#address").val().trim() == "")
 {
